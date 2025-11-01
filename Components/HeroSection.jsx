@@ -6,11 +6,20 @@ export default function HeroSection() {
     return (
         <div className="min-h-screen  text-gray-100 relative overflow-hidden">
             {/* Background gradient accent */}
+
             <div className="absolute inset-0 bg-gradient-to-b from-purple-900/10 via-transparent to-transparent"></div>
+            <div className='absolute left-0' >
+                <img className='h-180 ' src="element1.png" alt="" />
+            </div>
+            <div className='absolute right-0 ' >
+                <img className='h-180 ' src="element3.png" alt="" />
+            </div>
+
 
             {/* Main content container */}
             <div className="relative z-10 max-w-7xl mx-auto px-4">
                 {/* Header */}
+
 
 
                 {/* Hero Section */}
@@ -71,14 +80,10 @@ export default function HeroSection() {
                             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-56 h-[480px] bg-black rounded-[3rem] shadow-2xl border-8 border-gray-900 overflow-hidden">
                                 <div className="w-full h-full bg-gradient-to-b from-gray-900 to-black p-6 flex flex-col">
                                     {/* Header */}
-                                    <div className="flex items-center justify-between mb-8">
-                                        <button className="text-gray-400">‹</button>
-                                        <span className="text-white text-sm">New chat</span>
-                                        <button className="text-gray-400">+</button>
-                                    </div>
+
 
                                     {/* Chat */}
-                                    <div className="flex-1 space-y-4 overflow-y-auto no-scrollbar">
+                                    <div className="flex-1 space-y-8 overflow-y-auto no-scrollbar">
                                         <div className="text-center text-gray-500 text-xs">Today</div>
 
                                         {/* AI Message */}

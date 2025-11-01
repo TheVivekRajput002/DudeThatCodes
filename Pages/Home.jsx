@@ -16,8 +16,8 @@ const Home = () => {
         <Navbar />
         <HeroSection />
         <MobileSection />
+        <div className='py-30' >
 
-        <div className='p-20' >
           <Solutions />
         </div>
 
