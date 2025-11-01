@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function MobileSection() {
     return (
-        <div className="h-[65vh] w-[75vw] mt-[12vh] mx-auto bg-gradient-to-b from-[#88C7F9] to-[#268CDF] rounded-[20px] border border-[#619FEF52] relative overflow-hidden">
+        <div className="h-[65vh] w-[75vw] mt-[12vh] mx-auto bg-gradient-to-b from-[#b588f9] to-[#6426df] rounded-[20px] border border-[#619FEF52] relative overflow-hidden">
             {/* Mobile Section */}
             <div className="mobile">
                 <div className="mobile-txt max-w-[25%] absolute top-[7%] left-[8%]">
-                    <p className="bg-[#619fef75] text-[#3482E9] text-center rounded-[20px] py-[6px] px-[10px] text-[10px] inline-block">
+                    <p className="bg-[#24013875] text-[#b695fa] text-center rounded-[20px] py-[6px] px-[10px] text-[10px] inline-block">
                         Use Cases
                     </p>
                     <p className="mt-[10px] text-[12px] text-white">

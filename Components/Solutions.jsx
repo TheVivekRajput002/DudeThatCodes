@@ -1,4 +1,4 @@
-import { Calendar1, Spotlight, Timer, Infinity, Notebook, ArrowRight, Wand2, User, TestTube, Clock } from 'lucide-react';
+import { Calendar1, Spotlight, Timer, Omega, Infinity, Notebook, ArrowRight, Wand2, User, TestTube, Clock } from 'lucide-react';
 
 export default function Solutions() {
     const services = [
@@ -33,9 +33,9 @@ export default function Solutions() {
             color: "bg-blue-400"
         },
         {
-            icon: Wand2,
-            title: "Interactive Magic",
-            description: "We have a proven track record and experience in seamlessly turning Figma designs into functional websites.",
+            icon: Omega,
+            title: "Overload Prediction Engine",
+            description: "Uses data on meetings, deadlines, and work hours to predict upcoming workload spikes and notify users before burnout.",
             color: "bg-blue-400"
         }
     ]
