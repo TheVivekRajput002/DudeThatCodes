@@ -10,8 +10,8 @@ function App() {
       <div className='bg-[#00111F] pt-[2.5vh]'>
 
         {/* <Home /> */}
-        {/* <chatbot /> */}
-        <MobileSection />
+        <chatbot />
+        {/* <MobileSection /> */}
 
       </div>
 
